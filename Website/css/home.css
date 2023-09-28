@@ -1,0 +1,11 @@
+body{
+    background-image:url(https://phoneky.co.uk/thumbs/screensavers/down/nature/redwaterfa_DkywioP9.gif);
+    background-size: 10000px 10000px;
+}
+
+body p{
+    font-family: 'Roboto Mono', monospace;
+    color :white;
+    font-size: 350px;
+    text-align:center;
+}
