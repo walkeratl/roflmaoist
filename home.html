@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>roflmaoist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id = "demo"></p>
+    <script>
+        var releaseDate = new Date("October 15, 2023 00:00:00").getTime();
+        var display = setInterval(function() 
+        {         
+            var currentDate = new Date().getTime();
+            var time = releaseDate - currentDate;
+            var days = Math.floor(time / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((time % (1000 * 60)) / 1000);
+            document.getElementById("demo").innerHTML = days + " " + hours + " "
+                + minutes + " " + seconds;
+        }, 1000);
+    </script>
+
+</body>
+</html>
+
