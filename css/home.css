@@ -1,10 +1,10 @@
-body{
+header{
     margin: 0;
     background-image:url(https://phoneky.co.uk/thumbs/screensavers/down/nature/redwaterfa_DkywioP9.gif);
     background-size: 10000px 10000px;
 }
 
-body p{
+header p{
     font-family: 'Roboto Mono', monospace;
     color :white;
     font-size: 350px;
