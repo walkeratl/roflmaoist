@@ -1,0 +1,65 @@
+html{
+    background-image: url("../resources/waterfall.gif");
+    background-size: 20000px 20000px;
+    background-position:center;
+}
+
+header{
+    width: max-content;
+    align-content: center;
+}
+
+header nav{
+    align-content: center;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: white;
+}
+
+#iamroflmaoist {
+    align-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color :white;
+    font-size: 40px;
+    text-align:center;
+}
+
+#iamroflmaoist img {
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+
+#aboutroflmaoist {
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+#aboutroflmaoist p{
+    align-content: left;
+    font-family: 'Roboto Mono', monospace;
+    color :white;
+    font-size: 20px;
+
+}
+
+#ps {
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    text-align: center;
+}
+#ps p{
+    align-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color :white;
+    font-size: 15px;
+}
