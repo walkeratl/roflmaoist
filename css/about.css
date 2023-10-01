@@ -34,7 +34,7 @@ header a {
 #iamroflmaoist img {
     filter: drop-shadow(5px 5px 5px black);
     max-width: 100%;
-    size: auto;
+    width: 80vw;
 }
 
 #aboutroflmaoist {
@@ -54,7 +54,7 @@ header a {
 #aboutroflmaoist img {
     filter: drop-shadow(5px 5px 5px black);
     max-width: 100%;
-    size: auto;
+    width: 80vw;
 }
 
 #ps {
