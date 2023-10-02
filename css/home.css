@@ -6,6 +6,7 @@ body{
 }
 
 body p{
+    align-content:center;
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-size: 40px;
