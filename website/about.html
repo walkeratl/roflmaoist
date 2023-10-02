@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/about.css">
+        <title>about roflmaoist</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="resources/tvstatic.jpg">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://www.roflmaoist.com/">listen</a></li>
+                    <li><a href="https://www.roflmaoist.com/about.html">about</a></li>
+                    <li><a href="mailto:walkeratlonline@gmail.com">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="iamroflmaoist">
+            <h1></h1>
+            <img src="resources/roflmaoistbw1.jpeg">
+        </section>
+        <section id="aboutroflmaoist">
+            <h2></h2>
+            <a href="https://dylanbasden.com/"><img id="main" src="resources/roflmaoistbw2.jpeg"></a>
+            <p>roflmaoist (main) - live performances of original tracks. best for shows with bands. if you don't know what a band is, look up aerosmith</p>
+            <a href="https://dylanbasden.com/"><img id="dj" src="resources/roflmaoistbw3.jpeg"></a>
+            <p>dj roflmaoist - aggressive dark techno sets with some originals thrown in for good measure. best for dancey events such as funerals</p>
+            <p>
+                feel free to <a href="https://www.roflmaoist.com/">listen to my music</a> or 
+                <a href="mailto:walkeratlonline@gmail.com">send me an email</a>
+            </p>
+
+        </section>
+        <footer id="ps">
+            <p>
+                ps: rofl is pronounced like roflcopter. maoist is just maoist. rofl-maoist. roflmaoist
+            </p>
+        </footer>
+        <script>
+            var text1 = ["roflmaoist", "is", "an", "industrial", "electronic", "project", "by"
+                , "atlanta-", "based", '"artist"', "walker", "scott"];
+            var counter1 = 0;
+            var h1 = document.querySelector("h1");
+            var inst1=setInterval(changeH1,200);
+            function changeH1() {
+                h1.innerHTML = text1[counter1];
+                counter1++;
+                if (counter1 >= text1.length) {
+                    counter1 = 0;
+                }
+            }
+            var text2 = ["roflmaoist", "exists", "in", "two", "forms:"];
+            var counter2 = 0;
+            var h2 = document.querySelector("h2");
+            var inst2=setInterval(changeH2,200);
+            function changeH2() {
+                h2.innerHTML = text2[counter2];
+                counter2++;
+                if (counter2 >= text2.length) {
+                    counter2=0;
+                }
+            }
+        </script>
+    </body>
+</html>
+
