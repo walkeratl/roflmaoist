@@ -57,6 +57,10 @@ header a {
     width: 80vw;
 }
 
+#aboutroflmaoist a {
+    color: white;
+}
+
 #ps {
     display: block;
     font-family: 'Roboto Mono', monospace;
