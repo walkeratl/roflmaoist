@@ -4,6 +4,10 @@ html{
     background-position: center;
 }
 
+p, a, h1, h2 {
+    text-shadow:1px 1px black;
+}
+
 header{
     width: max-content;
     align-content: center;
