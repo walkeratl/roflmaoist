@@ -3,11 +3,11 @@ body{
     padding-top: 0;
     background-image:url(https://phoneky.co.uk/thumbs/screensavers/down/nature/redwaterfa_DkywioP9.gif);
     background-size: 10000px 10000px;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body p{
-    align-content:center;
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-size: 40px;
