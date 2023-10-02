@@ -8,6 +8,7 @@ body{
 body p{
     font-family: 'Roboto Mono', monospace;
     color :white;
-    font-size: 150px;
-    text-align:center;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
 }
