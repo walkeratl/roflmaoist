@@ -1,8 +1,12 @@
+html{
+    background-image: url("../resources/redwaterfall.gif");
+    background-size: 50000px 50000px;
+    background-position: center;
+}
+
 body{
     margin-top: 0;
     padding-top: 0;
-    background-image:url(https://phoneky.co.uk/thumbs/screensavers/down/nature/redwaterfa_DkywioP9.gif);
-    background-size: 10000px 10000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,4 +18,10 @@ body p{
     text-align: center;
     background-color: black;
     width: max-content;
+}
+
+html{
+    background-image: url("../resources/redwaterfall.gif");
+    background-size: 50000px 50000px;
+    background-position: center;
 }
