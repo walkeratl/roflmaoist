@@ -59,7 +59,6 @@ header a {
     font-family: 'Orbitron', sans-serif;
     color:white;
     font-size: 20px;
-    padding-bottom:60px;
 }
 
 #aboutroflmaoist img {
@@ -72,6 +71,8 @@ header a {
     filter: drop-shadow(5px 5px 5px black);
     max-width: 100%;
     width: 65vw;
+    padding-bottom:60px;
+
 }
 
 #aboutroflmaoist a{
