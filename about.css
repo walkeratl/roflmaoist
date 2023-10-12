@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "DS Fette Gotisch";
+    src: url("https://www.roflmaoist.com/webfontkit-20231012-142139/ds-fette-gotisch.regular-webfont.woff") format("woff");
+    }
+
 html{
     background-image: url("../resources/redwaterfall.gif");
     background-size: 2000px 10000px;
@@ -22,16 +27,16 @@ header li {
 }
 
 header a {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 15px;
+    font-family: 'DS Fette Gotisch', sans-serif;
+    font-size: 20px;
     color: white;
 }
 
 #iamroflmaoist {
     align-content: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color :white;
-    font-size: 5vw;
+    font-size: 8vw;
     text-align:center;
 }
 
@@ -44,17 +49,17 @@ header a {
 
 #aboutroflmaoist {
     display: block;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color:white;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
 
 #aboutroflmaoist p{
     align-content: left;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color:white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #aboutroflmaoist img {
@@ -77,13 +82,13 @@ header a {
 
 #ps {
     display: block;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 15px;
+    font-family: 'DS Fette Gotisch', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 #ps p{
     align-content: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color :white;
-    font-size: 15px;
+    font-size: 20px;
 }

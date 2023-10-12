@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "DS Fette Gotisch";
+    src: url("https://www.roflmaoist.com/webfontkit-20231012-142139/ds-fette-gotisch.regular-webfont.woff") format("woff");
+    }
+
 html{
     background-image: url("../resources/redwaterfall.gif");
     background-size: 2000px 10000px;
@@ -22,16 +27,16 @@ header li {
 }
 
 header a {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 15px;
+    font-family: 'DS Fette Gotisch', sans-serif;
+    font-size: 20px;
     color: white;
 }
 
 #outnow {
     align-content: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color :white;
-    font-size: 10vw;
+    font-size: 12vw;
     text-align:center;
     size: auto;
     max-width: 100%;
@@ -45,8 +50,8 @@ header a {
 
 #listen {
     display: block;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
+    font-family: 'DS Fette Gotisch', sans-serif;
+    font-size: 40px;
     max-width: 100%;
     size: auto;
 }
@@ -65,9 +70,9 @@ header a {
 }
 
 #listen span{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'DS Fette Gotisch', sans-serif;
     color :white;
-    font-size: 15px;
+    font-size: 20px;
     align-content: center;
     text-align: center;
 }
