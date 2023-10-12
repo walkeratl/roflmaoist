@@ -4,30 +4,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/home.css">
-        <title>roflmaoist</title>
+        <title>"WHEN YOU CALLED" out now</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="resources/tvstatic.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="resources/icon.jpeg">
     </head>
     <body>
-        <div>
-            <p id = "demo"></p>
-            <script defer>
-                var releaseDate = new Date("October 13, 2023 00:00:00").getTime();
-                var display = setInterval(function() 
-                {         
-                    var currentDate = new Date().getTime();
-                    var time = releaseDate - currentDate;
-                    var days = Math.floor(time / (1000 * 60 * 60 * 24));
-                    var hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    var minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
-                    var seconds = Math.floor((time % (1000 * 60)) / 1000);
-                    document.getElementById("demo").innerHTML = days + " " + hours + " "
-                        + minutes + " " + seconds;
-                }, 1000);
-            </script>
-        </div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://www.roflmaoist.com/">listen</a></li>
+                    <li><a href="https://www.roflmaoist.com/about.html">about</a></li>
+                    <li><a href="mailto:walkeratlonline@gmail.com">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="outnow">
+            <h1></h1>
+            <a href="https://roflmaoist.bandcamp.com/album/when-you-called"><img src="resources/WHEN YOU CALLED.jpeg"></a>
+        </section>
+        <section id="listen">
+            <ul>
+                <li><a href="https://roflmaoist.bandcamp.com/album/when-you-called">purchase on bandcamp</a></li>
+                <li><a href="#">spotify</a></li>
+                <li><a href="#">apple music</a></li>
+                <li><a href="#">youtube music</a></li>
+                <li><a href="#">soundcloud</a></li>
+            </ul>
+        </section>
+        <script>
+            text = ['"WHEN', "YOU", 'CALLED"', "out", "now"];
+            counter = 0;
+            h1 = document.querySelector("h1");
+            inst = setInterval(change,300);
+            function change() {
+                h1.innerHTML = text[counter];
+                counter++;
+                if (counter >= text.length) {
+                    counter = 0;
+                }
+            }
+        </script>
     </body>
 </html>
 

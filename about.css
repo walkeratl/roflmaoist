@@ -1,7 +1,11 @@
 html{
     background-image: url("../resources/redwaterfall.gif");
-    background-size: 50000px 50000px;
+    background-size: 2000px 10000px;
     background-position: center;
+}
+
+p, a, h1, h2 {
+    text-shadow:1px 1px black;
 }
 
 header{
@@ -18,36 +22,38 @@ header li {
 }
 
 header a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Orbitron', sans-serif;
     font-size: 15px;
     color: white;
 }
 
 #iamroflmaoist {
     align-content: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Orbitron', sans-serif;
     color :white;
-    font-size: 40px;
+    font-size: 5vw;
     text-align:center;
 }
 
 #iamroflmaoist img {
     filter: drop-shadow(5px 5px 5px black);
     max-width: 100%;
-    width: 80vw;
+    width: 60vw;
+    padding-bottom: 60px;
 }
 
 #aboutroflmaoist {
     display: block;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    font-size: 25px;
     text-align: center;
 }
 
 #aboutroflmaoist p{
     align-content: left;
-    font-family: 'Roboto Mono', monospace;
-    color :white;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
     font-size: 20px;
 }
 
@@ -57,19 +63,27 @@ header a {
     width: 80vw;
 }
 
+#aboutroflmaoist img#main, img#dj {
+    filter: drop-shadow(5px 5px 5px black);
+    max-width: 100%;
+    width: 65vw;
+    padding-bottom:60px;
+
+}
+
 #aboutroflmaoist a{
     color: white;
 }
 
 #ps {
     display: block;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Orbitron', sans-serif;
     font-size: 15px;
     text-align: center;
 }
 #ps p{
     align-content: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Orbitron', sans-serif;
     color :white;
     font-size: 15px;
 }
